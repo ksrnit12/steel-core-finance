@@ -10,10 +10,10 @@
 ## 🎯 The Problem
 
 Traditional AI systems **hallucinate** when processing financial data.
-* **User:** "What's our Q4 profit?"
+* **User:** "What is our Q4 profit?"
 * **ChatGPT:** "Your Q4 profit is approximately $4.2M"
 * **Reality:** Actually $2.1M
-* **Consequence:** Audit failure → Lawsuit
+* **Consequence:** Audit failure -> Lawsuit
 
 ---
 
@@ -21,9 +21,9 @@ Traditional AI systems **hallucinate** when processing financial data.
 
 A **three-layer architecture** that guarantees zero hallucinations:
 
-1. **ROUTER** → Classifies intent, blocks LLM from guessing
-2. **STEEL CORE (Python Logic)** → Deterministic calculations only
-3. **VOICE LAYER (Optional LLM)** → Natural language formatting only
+1. **ROUTER** -> Classifies intent, blocks LLM from guessing
+2. **STEEL CORE (Python Logic)** -> Deterministic calculations only
+3. **VOICE LAYER (Optional LLM)** -> Natural language formatting only
 
 **Key Principle:** The LLM **never** sees raw data or performs calculations. Python does the math. The LLM just makes it readable.
 
@@ -56,3 +56,9 @@ cd steel-core-finance
 # Install dependencies
 pip install pandas
 
+Basic Usage
+python3 steel_core.py
+📄 License
+This project is licensed under the MIT License.
+
+Copyright (c) 2026
