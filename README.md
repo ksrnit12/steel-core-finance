@@ -50,13 +50,13 @@ Every calculation gets a unique, verifiable Audit ID.
 ### Installation
 ```bash
 # Clone the repository
-git clone [https://github.com/ksrnit12/steel-core-finance.git](https://github.com/ksrnit12/steel-core-finance.git)
+git clone https://github.com/ksrnit12/steel-core-finance.git
 cd steel-core-finance
 
 # Install dependencies
 pip install pandas
-
 Basic Usage
+Bash
 python3 steel_core.py
 📄 License
 This project is licensed under the MIT License.
