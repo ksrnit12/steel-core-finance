@@ -1,0 +1,6 @@
+# Ignore Sensitive Data
+*.csv
+*.jsonl
+*.log
+.DS_Store
+__pycache__/
